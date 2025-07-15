@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Château Letour</title>
+  <link rel="icon" href="medias/lys.png" type="image/png">
+  <link rel="stylesheet" href="chateau-vin.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="header-container">
+      <div class="logo">
+                Château Letour
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#vins">Le château</a></li>
+          <li><a href="#VIP">Les vins</a></li>
+          <li><a href="#clubs">VIP</a></li>
+          <li><a href="#apropos">Boutique</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      
+  </header>
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <img src="medias/logo-site.png" alt="Logo du site" style="max-width: 500px;">
+      <h1>Château Letour</h1>
+      <h2>Grand cru classé</h2>
+    </div>
+  </section>
+
+   <section class="text-section">
+  <div class="container">
+    <h2>Un vin encré dans l'Histoire</h2>
+    <p>Un verre de Château Letour c'est un voyage temporel à travers 200ans d'Histoire. Le château fût fondé en 1815 par Auguste Letour, ancien ministre des finances de Napoléon. Après l'exil de ce dernier, Letour acheta 1 800 hectares en plein coeur de la Dordogne. Il y fonda le château que l'on connaît aujourd'hui. C'est à travers traditions et héritage que nous vous proposons aujourd'hui de voyager.</p>
+
+    <!-- Bannière de lys -->
+    <div class="lys-banner">
+      <img src="medias/lys.png" alt="Logo en forme de lys" class="logooo">
+      <img src="medias/lys.png" alt="Logo en forme de lys" class="logooo">
+      <img src="medias/lys.png" alt="Logo en forme de lys" class="logooo">
+    </div>
+  </div>
+</section>
+
+<section class="gallery-section">
+  <div class="gallery-intro">
+    <h2>Les vins</h2>
+    <p>Du blanc au rosé en passant par le rouge, chaque bouteille reflète un savoir-faire unique et un terroir d’exception.</p>
+  </div>
+  <div class="gallery-item">
+    <img src="medias/vin-blanc.png" alt="Image 1">
+    <h3>L'Espoir</h3>
+    <p class="hover-text">Grand Vin des Graves <br> Doux et subtil</p>
+  </div>
+  <div class="gallery-item">
+    <img src="medias/vin-rouge.png" alt="Image 2">
+    <h3>L'Âme de Letour</h3>
+    <p class="hover-text">Grand Vin des Graves <br> Fumé et épicé</p>
+  </div>
+  <div class="gallery-item">
+    <img src="medias/vin-rose.png" alt="Image 3">
+    <h3>L'Idée</h3>
+    <p class="hover-text">Rosé <br> Expressif et intense</p>
+  </div>
+  <div class="gallery-button">
+  <a href="#" class="cta-button">Je découvre les vins</a>
+</div>
+</section>
+
+<section class="wine-pairing-section">
+  <div class="wine-pairing-container">
+
+    <!-- Colonne gauche : menu déroulant -->
+    <div class="wine-selector">
+      <div class="wine-select-column">
+      <h2>Quel accord ?</h2>
+      <p>Vous devez choisir un vin pour le déjeuner en famille de ce week-end, mais vous ne savez pas comment le sélectionner ? Nous vous proposons de choisir parmi nos 3 gammes de vins afin de connaître les meilleurs mets qui leurs convienne.</p> </div>
+      <label for="wineSelect">Choisissez un vin :</label>
+      <select id="wineSelect">
+        <option value="espoir">L'Espoir (Blanc)</option>
+        <option value="ame">L'Âme de Letour (Rouge)</option>
+        <option value="idee">L'Idée (Rosé)</option>
+      </select>
+    </div>
+
+    <div class="wine-info" id="wineInfo">
+      <img src="medias/espoir.jpg" alt="Photo du vin" id="wineImage">
+      <div class="wine-description" id="wineDescription">
+                <br>Ce vin blanc rencontrera avec perfection des mets de la mer de type poissons grillés, fruits de mer ou encore repas frais tel que salade fraîche au chèvre.
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="near-you">
+  <div class="near-you-roww">
+    <div class="near-you-card">
+      <div class="icon"><img src="medias/etoile.png" alt="Icône produit d'excellence"></div>
+      <h3>Un produit d'excellence</h3>
+      <p>Notre savoir-faire artisanal donne naissance à des produits d'une qualité irréprochable. Chaque étape de fabrication est maîtrisée avec rigueur et passion pour un goût authentique.</p>
+    </div>
+
+    <div class="near-you-card">
+      <div class="icon"><img src="medias/vigne.png" alt="Icône produit d'excellence"></div>
+      <h3>Au coeur du territoire</h3>
+      <p>Fiers de nos racines, nous valorisons les richesses locales dans toutes nos productions. Notre engagement envers le terroir se traduit par des partenariats durables avec les producteurs.</p>
+    </div>
+
+    <div class="near-you-card">
+      <div class="icon"><img src="medias/vin.png" alt="Icône produit d'excellence"></div>
+      <h3>Vos papilles en émoi</h3>
+      <p>Une explosion de saveurs qui éveille les sens et réveille les souvenirs. Nos recettes uniques vous promettent un voyage gustatif inoubliable. Laissez-vous surprendre.</p>
+    </div>
+  </div>
+</section>
+
+ <section class="contact-section">
+  <div class="contact-container">
+    <form id="footerContactForm" class="footer-contact-form">
+      <h3><strong>Une question ? Contactez-nous !</strong></h3>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="nom">Nom</label>
+          <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Votre email" required>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="telephone">Numéro de téléphone (facultatif)</label>
+          <input type="tel" id="telephone" name="telephone" placeholder="Votre numéro de téléphone">
+        </div>
+        <div class="form-group">
+          <label for="objet">Objet</label>
+          <input type="text" id="objet" name="objet" placeholder="Objet" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Votre message" required></textarea>
+      </div>
+
+      <button type="submit">Envoyer</button>
+      <p id="footerFormMessage"></p>
+    </form>
+
+    <div class="map-container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20496.346827315545!2d0.612212351585734!3d44.798130277860395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12ab26ef20b211a9%3A0xfb81cc4288e7dce1!2sLe%20Tour%2C%2024560%20Faux-en-P%C3%A9rigord!5e1!3m2!1sfr!2sfr!4v1752223423170!5m2!1sfr!2sfr"
+        style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+
+  <footer class="site-footer">
+  <div class="footer-content">
+    <div class="footer-section links">
+      <h3>Château Letour</h3>
+      <ul>
+        <li><a href="#">Le château</a></li>
+        <li><a href="#">Les vins</a></li>
+        <li><a href="#">VIP</a></li>
+        <li><a href="#">Boutique</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section contact">
+  <h3>Contact</h3>
+  <p>123 Route des Vignes<br>24560 Faux-en-Dordogne</p>
+  <p><br>05 56 34 56 78</p>
+  <p><br><a href="mailto:contact@letour.fr">contact@letour.fr</a></p>
+</div>
+
+    <div class="footer-section newsletter">
+      <h3>Newsletter</h3>
+      <p>Recevez nos actualités et offres spéciales</p>
+      <form>
+        <input type="email" placeholder="Votre email" required>
+        <button type="submit">S'inscrire</button>
+      </form>
+    </div>
+
+    <div class="footer-section social">
+      <h3>Suivez-nous</h3>
+      <div class="social-icons">
+        <a href="#" aria-label="Facebook"><img src="medias/facebook.png" alt="Facebook"></a>
+        <a href="#" aria-label="Instagram"><img src="medias/instagram.png" alt="Instagram"></a>
+        <a href="#" aria-label="LinkedIn"><img src="medias/linkedin.png" alt="LinkedIn"></a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Domaine Letour. Tous droits réservés.</p>
+  </div>
+</footer>
+
+  <script src="chateau-vin.js"></script>
+</body>
+</html> 
